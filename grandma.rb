@@ -8,7 +8,7 @@ def speak_to_grandma (phrase)
   
 If phrase == 'I LOVE YOU GRANDMA!' 
   'I LOVE YOU TOO PUMPKIN!'
-elseif speak_to_grandma =='(I LOVE YOU GRANDMA)'
+elsif speak_to_grandma =='(I LOVE YOU GRANDMA)'
   return "I LOVE YOU TOO PUMPKIN"
 else
   return "NO, NOT SINCE 1938"
