@@ -4,6 +4,18 @@
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
 
+def speak_to_grandma (phrase)
+  
+If phrase == ("I LOVE YOU GRANDMA!) 
+  "I LOVE YOU TOO PUMPKIN!"
+elseif speak_to_grandma = "(I LOVE YOU GRANDMA)
+  return "I LOVE YOU TOO PUMPKIN"
+else
+  return "NO, NOT SINCE 1938"
+end
+end 
+  
+
 # If you shout, she can hear you (or at least she thinks so) 
 # and yells back
 
