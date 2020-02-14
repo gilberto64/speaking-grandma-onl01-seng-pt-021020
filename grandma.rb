@@ -4,12 +4,17 @@
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
 
+
+require 'pry'
+
 def speak_to_grandma (phrase)
+
+binding pry
   
 If phrase == 'I LOVE YOU GRANDMA!' 
   'I LOVE YOU TOO PUMPKIN!'
 elsif phrase != phrase.upcase
-  ' HUH SPEAK UP, SONNY'
+  'HUH SPEAK UP, SONNY'
 else
   return "NO, NOT SINCE 1938"
 end
