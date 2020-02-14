@@ -4,22 +4,17 @@
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
 
+def speak_to_grandma(phrase)
 
-require 'pry'
-
-def speak_to_grandma (phrase)
-
-binding pry
-  
-If phrase == 'I LOVE YOU GRANDMA!' 
+if == 'I LOVE YOU GRANDMA!'
   'I LOVE YOU TOO PUMPKIN!'
-elsif phrase != phrase.upcase
+elsif  phrase != phrase.upcase
   'HUH SPEAK UP, SONNY'
 else
-  return "NO, NOT SINCE 1938"
+  'NO, NOT SINCE 1938'
 end
 
-end 
+end  
   
 
 # If you shout, she can hear you (or at least she thinks so) 
